@@ -17,3 +17,12 @@ string Y(){
 		cout<<"\nLuas persegi panjang ="<<LPP;
 	}
 
+Int main(){
+	char pilih, ulang;
+	
+	do{
+		cout<<"=============================================\n";
+		cout<<"Mencari Luas persegi dan persegi panjang\n\n";
+		cout<<"1.Luas persegi\n";
+		cout<<"2.Luas persegi panjang\n";
+		cout<<"pilih(1,2) =";cin>>pilih;
